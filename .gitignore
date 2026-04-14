@@ -1,0 +1,15 @@
+# Ignore all Java compiled classes
+*.class
+
+# Ignore executable JAR files
+*.jar
+*.war
+
+# Ignore Jenkins-specific local workspace artifacts (if any)
+build/
+bin/
+target/
+
+# Ignore OS-specific files
+Thumbs.db
+.DS_Store
